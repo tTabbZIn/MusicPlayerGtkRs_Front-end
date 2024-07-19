@@ -1,0 +1,43 @@
+#container{
+    padding: 25px;
+    background: #0a0908;
+}
+
+button{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #0a0908;
+    border-radius: 10px;
+    border: 0px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+
+button#bt1:hover,
+button#bt2:hover,
+button#bt3:hover{
+    color: #eae0d5;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+button#btimage{
+    background-image: url("https://i.pinimg.com/564x/a6/ec/81/a6ec81de1f499dc61d25e96a006623e1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+button#music_name{
+    font-size: 15px;
+    color: white;
+}
+
+button#music_bar{
+    width: 100%;
+    border: 0px;
+    background: white;
+}
